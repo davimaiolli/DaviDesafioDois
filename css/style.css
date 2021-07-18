@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#logo{  
+    display: flex;
+    border: #7cfc00;
+    border-style: solid;
+}
+
+#fraseTop{
+    font-size:large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    color: #fff;    
+    background: #094127; 
+    display: flex; 
+    justify-content: center;
+    border: #7cfc00;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;  
+}
+
+#contant{
+    border: #7cfc00;
+    border-style: solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;     
+}
+
+#trocaCor:hover{
+    background-color: lime;
+}
+
+.section-Principal{
+    width: 100%;
+    height: 100%;   
+    border: #7cfc00;
+    border-style: solid;
+    background: #094127;     
+}
+
+input {
+    font-size:x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;    
+    text-align: center;
+    border-radius: 5px;
+    background: #dafdee;
+    color: #020202;
+}
+
+.produtos{      
+    display: flex; 
+    flex-wrap: wrap;     
+    justify-content:space-between;     
+}
+
+#proUm{    
+    border:1px solid;    
+    border: #7cfc00;
+    border-style: solid;
+    width: 33%; 
+    height: 100%;
+    text-align: center; 
+}
+#proUm:hover{
+    border:1px solid #233511;      
+    border: #233511;  
+    border-style: solid;     
+}
+
+#descricao{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center; 
+}
+
+footer{
+    height: 25px;
+    padding: 10px;
+    font-size: larger;    
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;    
+}
