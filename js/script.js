@@ -14,7 +14,7 @@ formulario.addEventListener('submit', (e)=>{
     localStorage.setItem('lead', converteCadastro);
 
     console.log(nome,email, cadastro);
-    alert("Seja bem Vindo!");
+    alert("Seja bem Vindo! Você receberá nossas promoções em breve.");
 
     
 
